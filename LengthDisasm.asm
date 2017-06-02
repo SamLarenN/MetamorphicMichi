@@ -231,7 +231,7 @@ mlde32:
 ;****************************
 ;* PROCESS WEIRD OPCODES    *
 ;*			    *
-;* Fucking test (F6h/F7h)   *
+;*  test (F6h/F7h)   *
 ;*			    *
 ;****************************
 @@t_weird:
@@ -245,9 +245,9 @@ mlde32:
        jmp  @@i5
 
 ;*********************************
-;* PROCESS SOME OTHER SHIT	 *
+;* PROCESS SOME OTHER 	 *
 ;*				 *
-;* Fucking mov (A0h/A1h/A2h/A3h) *
+;*  mov (A0h/A1h/A2h/A3h) *
 ;*				 *
 ;*********************************
 @@t_imm32:
